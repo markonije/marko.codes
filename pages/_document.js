@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'Marko Popović',
-    description: "Hi! I'm Marko, a middle school student from Serbia.",
+    description: "Hi! I'm Marko, a middle school student/web developer from Serbia.",
     image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
   }
 
