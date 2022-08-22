@@ -1,5 +1,6 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
+import Script from 'next/script'
 
 import '../styles/main.css'
 
@@ -20,7 +21,7 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"marko",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");</script>
+        <Script src="/scripta.js"></Script>
       </Head>
       <Component {...pageProps} />
     </>
