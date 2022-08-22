@@ -1,6 +1,6 @@
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
-import Script from 'next/script'
+
 
 import '../styles/main.css'
 
@@ -21,7 +21,7 @@ export default function Nextra({ Component, pageProps }) {
           type="font/woff2"
           crossOrigin="anonymous"
         />
-        <Script src="/scripta.js"></Script>
+        
       </Head>
       <Component {...pageProps} />
     </>

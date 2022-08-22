@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import Script from 'next/script'
 export default function Document() {
   const meta = {
     title: 'Marko Popović',
@@ -21,7 +21,7 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        
+        <Script src="/scripta.js"></Script>
 
       </Head>
       <body>
