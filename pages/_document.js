@@ -21,8 +21,8 @@ export default function Document() {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
-        <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"marko",utcoffset:"2"}))};sessionStorage.setItem("_swa","1");</script>
         
+
       </Head>
       <body>
         <Main />
